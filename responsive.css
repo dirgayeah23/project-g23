@@ -1,0 +1,44 @@
+    @media all and (max-width: 1000px) {
+        .welcome p {
+            font-size: 10px;
+            line-height: 15px;
+        }
+        .design p {
+            font-size: 10px;
+            line-height: 15px;
+        }
+        .price {
+            width: 50%;
+            margin-bottom: 70px;
+        }
+    }
+    
+    @media all and (max-width: 670px) {
+        .price {
+            width: 100%;
+        }
+        input {
+            width: 100%;
+        }
+        textarea {
+            width: 100%;
+        }
+        footer {
+            text-align: center;
+        }
+        .footer-logo {
+            font-size: 30px;
+            padding-top: 5px;
+        }
+        .footer-left p {
+            font-size: 10px;
+            padding-bottom: 5px;
+            color: #969696;
+        }
+        .send {
+            width: 100%;
+        }
+        .purchase {
+            width: 100%;
+        }
+    }
